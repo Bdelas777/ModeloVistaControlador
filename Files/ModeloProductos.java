@@ -63,10 +63,12 @@ public class ModeloProductos {
 				
 			 Products tempProduct = new Products( codarticle, seccion,  narticle, 
 					 importado, origincountry, price, date);
-				
 			
+			 products.add(tempProduct);
 			 
 		 }
+		 
+		 return products;
 	}
 	
 	
